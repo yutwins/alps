@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ALPS税理士法人</title>
+
+		<!-- swiper読み込みコード -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+		<!-- google fonts読み込みコード -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			  href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+JP:wght@300;400;500&display=swap"
+			  rel="stylesheet">
+
+		<!-- slickの読み込み -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+		<link rel="stylesheet" href="/scss/styles.scss">
+		<link rel="stylesheet" href="/css/styles.css">
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__inner">
+				<a href="#" class="header-logo">
+					<img src="/images/header-logo.png" alt="header-logo">
+				</a>
+				<ul class="header-list">
+					<li class="header-list-item"><a href="#">業務内容</a></li>
+					<li class="header-list-item"><a href="#">料金体系</a></li>
+					<li class="header-list-item"><a href="#">会社概要</a></li>
+					<li class="header-list-item"><a href="#">ニュース</a></li>
+					<li class="header-list-item"><a href="#">お問い合わせ</a></li>
+				</ul>
+			</div>
+		</header>
+		<!-- /.header -->
+
+
+		<div class="drawer-icon">
+			<div class="drawer__bars">
+				<div class="drawer-bar01"></div>
+				<div class="drawer-bar02"></div>
+				<div class="drawer-bar03"></div>
+			</div>
+		</div>
+
+		<div class="drawer-content">
+			<div class="drawer-content-items">
+				<div class="drawer-content-logo"><a href="#"><img src="/images/header-logo.png" alt="logo"></a></div>
+				<div class="drawer-content-item"><a href="#">業務内容</a></div>
+				<div class="drawer-content-item"><a href="#">料金体系</a></div>
+				<div class="drawer-content-item"><a href="#">会社概要</a></div>
+				<div class="drawer-content-item"><a href="#">ニュース</a></div>
+				<div class="drawer-content-item"><a href="#">お問い合わせ</a></div>
+			</div>
+		</div>
+
+		<div class="drawer-background"></div>
+		<!-- /.drawer -->
+
+		<section class="page-top">
+			<div class="page-top__inner">
+				<figure class="page-top-bg">
+					<img src="/images/page-top-contact.png" alt="">
+				</figure>
+				<div class="page-top-title">
+					<p class="page-top-head">Contact</p>
+					<p class="page-top-subhead">お問い合わせ</p>
+				</div>
+			</div>
+			<a class="page-top-nav">Home　＞　Contact</a>
+		</section>
+		<!-- /.page-top -->
+
+		<section class="contact">
+			<div class="contact__inner inner">
+				<div class="section__title contact__title">
+					<h2 class="section-en__title contact-en__title">Contact Form</h2>
+					<p class="section__subtitle contact__subtitle">お問い合わせフォーム</p>
+				</div>
+				<form action="" class="contact-form">
+					<dl class="contact-form-dl">
+						<div class="contact-form-row">
+							<dt class="contact-form__label"><label for="your-name">お名前<span class="require-label"></span></label>
+							</dt>
+							<dd class="contact-form__input">
+								<input id="your-name" type="text" placeholder="山田 太郎">
+							</dd>
+						</div>
+						<div class="contact-form-row">
+							<dt class="contact-form__label"><label for="your-furigana">ふりがな<span
+																								 class="require-label"></span></label></dt>
+							<dd class="contact-form__input">
+								<input id="your-furigana" type="text" placeholder="やまだ　たろう">
+							</dd>
+						</div>
+						<div class="contact-form-row">
+							<dt class="contact-form__label"><label for="your-location">ご住所<span
+																								class="require-label"></span></label></dt>
+							<dd class="contact-form__input">
+								<input id="address" type="text" placeholder="例）大阪市中央区北浜３ー２ー２５　京阪淀屋橋ビル８Ｆ">
+							</dd>
+						</div>
+						<div class="contact-form-row">
+							<dt class="contact-form__label"><label for="your-number">電話番号<span
+																							   class="require-label"></span></label></dt>
+							<dd class="contact-form__input"><input id="your-number" type="text" placeholder="000-0000-000"></dd>
+						</div>
+						<div class="contact-form-row">
+							<dt class="contact-form__label"><label for="your-email">メールアドレス<span
+																								 class="require-label"></span></label></dt>
+							<dd class="contact-form__input"><input id="your-email" type="email" placeholder="xxx@example.com"></dd>
+						</div>
+						<div class="contact-form-row">
+							<dt class="contact-form__label"><label for="your-message">お問い合わせ内容<span
+																									class="require-label"></span></label></dt>
+							<dd class="contact-form__input">
+								<textarea name="" id="your-message" placeholder="こちらにお問い合わせ内容をご記入してください。"></textarea>
+							</dd>
+						</div>
+					</dl>
+					<div class="contact-form__submit">
+						<input type="submit" value="送信">
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- /.contact -->
+
+
+		<section class="qa">
+			<div class="section__title qa__title">
+				<h2 class="section-en__title qa-en__title">Q&A</h2>
+				<p class="section__subtitle qa__subtitle">よくあるご質問</p>
+			</div>
+			<div class="qa__inner inner">
+				<div class="qa-items">
+					<div class="qa-item qa-item01">
+						<div class="qa-box">
+							<div class="qa-box__q">
+								いつから料金が発生いたしますか？
+								<div class="qa-box__icon">
+									<!-- <div class="qa-box__bar1"></div>
+<div class="qa-box__bar2"></div> -->
+								</div>
+							</div>
+							<div class="qa-box__a">
+								<div class="qa-box__content">業務委託契約を締結させていただき、弊社のサポート開始後から発生いたします。それまでの初回相談の際は無料ですのでご安心ください。<br>
+									<br>
+									また、契約までの流れとして、初回相談時に業務内容や料金体系をご説明したのちに、必要に応じてお見積書をご提示させていただきます。ご納得いただけましたら、業務契約を締結させていただきます。</div>
+							</div>
+						</div>
+					</div>
+					<div class="qa-item qa-item02">
+						<div class="qa-box">
+							<div class="qa-box__q">
+								相談やお打ち合わせはオンラインでも可能ですか？
+								<div class="qa-box__icon">
+									<!-- <div class="qa-box__bar1"></div>
+<div class="qa-box__bar2"></div> -->
+								</div>
+							</div>
+							<div class="qa-box__a">
+								<div class="qa-box__content">はい、可能です。Zoom、Google Meet、Teams、Skype、LINE、Slack、Chatwork、等のコミュニケーションツールに対応しておりますので、ご要望に応じて対応させていただきます。<br>
+									<br>
+									もちろん、直接貴社まで伺い相談させていただくことも可能ですので、貴社にとって、最もご都合の良い方法をお知らせください。</div>
+							</div>
+						</div>
+					</div>
+					<div class="qa-item qa-item03">
+						<div class="qa-box">
+							<div class="qa-box__q">
+								相談やお打ち合わせは土日でも可能ですか？
+								<div class="qa-box__icon">
+									<!-- <div class="qa-box__bar1"></div>
+<div class="qa-box__bar2"></div> -->
+								</div>
+							</div>
+							<div class="qa-box__a">
+								<div class="qa-box__content">はい、可能です。業種によっては必要不可欠かと思いますので、事前に日程調整させていただければ対応させていただきます。<br>
+									<br>
+									まずは、お気軽にご相談いただければと思います。</div>
+							</div>
+						</div>
+					</div>
+					<div class="qa-item qa-item04">
+						<div class="qa-box">
+							<div class="qa-box__q">
+								開業したばかりですが、サポート可能ですか？
+								<div class="qa-box__icon">
+									<!-- <div class="qa-box__bar1"></div>
+<div class="qa-box__bar2"></div> -->
+								</div>
+							</div>
+							<div class="qa-box__a">
+								<div class="qa-box__content">はい、可能です。開業届出の手続き、経理業務フローの構築、会計ソフトの導入、バックオフィス業務の効率化まですべてお任せください。<br>
+									<br>
+									また、記帳代行の料金体系プランもご準備しておりますので、必要に応じてご検討ください。</div>
+							</div>
+						</div>
+					</div>
+					<div class="qa-item qa-item05">
+						<div class="qa-box">
+							<div class="qa-box__q">
+								決算直前にスポットで税務申告書の作成のみをお願いすることは可能ですか？
+								<div class="qa-box__icon">
+									<!-- <div class="qa-box__bar1"></div>
+<div class="qa-box__bar2"></div> -->
+								</div>
+							</div>
+							<div class="qa-box__a">
+								<div class="qa-box__content">はい、可能です。何か理由があってのことかと思いますので、お気軽にご相談ください。</div>
+							</div>
+						</div>
+					</div>
+					<div class="qa-item qa-item06">
+						<div class="qa-box">
+							<div class="qa-box__q">
+								セカンドオピニオンは可能ですか？
+								<div class="qa-box__icon">
+									<!-- <div class="qa-box__bar1"></div>
+<div class="qa-box__bar2"></div> -->
+								</div>
+							</div>
+							<div class="qa-box__a">
+								<div class="qa-box__content">はい、可能です。大手税理士法人での経験をもとに多様な側面から検討させていただきますので、お気軽にお問い合わせください。</div>
+							</div>
+						</div>
+					</div>
+					<div class="qa-item qa-item07">
+						<div class="qa-box">
+							<div class="qa-box__q">
+								税理士に直接担当していただきたいのですが可能ですか？
+								<div class="qa-box__icon">
+									<!-- <div class="qa-box__bar1"></div>
+<div class="qa-box__bar2"></div> -->
+								</div>
+							</div>
+							<div class="qa-box__a">
+								<div class="qa-box__content">はい、可能です。弊社は税理士しか在籍しておりませんのでご安心ください。</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- /.qa -->
+
+
+		<footer class="footer">
+			<div class="footer__inner">
+				<div class="footer-left">
+					<a href="#" class="footer-logo">
+						<img src="/images/footer-icon.png" alt="">
+					</a>
+					<p class="footer-name">ALPS税理士法人</p>
+					<a href="https://goo.gl/maps/6c8Y4CycEmwtCPDW8" target="_blank" rel="noopener"
+					   class="footer-loc">〒541-0041<br>
+						大阪市中央区北浜3ー2ー25 京阪淀屋橋ビル8F</a>
+					<p class="footer-text">受付時間 : 平日 9:00～17:00<br>
+						※お問い合わせフォームからは24時間受け付けております。<br>
+						定休日 : 土日・祝日
+					</p>
+				</div>
+				<div class="footer-right">
+					<div class="footer-certification">
+						<p class="footer-certification-text">
+							ALPS税理士法人は、<br>
+							MFクラウド公認メンバー、<br>
+							freee2つ星認定アドバイザーです。
+						</p>
+						<div class="footer-certification-images">
+							<img class="mf-blue" src="/images/MF公認00(blue).png" alt="mf-blue">
+							<img class="freee-blue" src="/images/freee認定(blue).png" alt="freee-blue">
+						</div>
+						<ul class="footer-list">
+							<li class="footer-list-item"><a href="#">業務内容</a></li>
+							<li class="footer-list-item"><a href="#">料金体系</a></li>
+							<li class="footer-list-item"><a href="#">会社概要</a></li>
+							<li class="footer-list-item"><a href="#">ニュース</a></li>
+							<li class="footer-list-item"><a href="#">お問い合わせ/Q&A</a></li>
+						</ul>
+						<div class="privacy-policy">
+							<a href="#" class="privacy-policy-text">プライバシーポリシー</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="copyright">© 2022 ALPS税理士法人.</p>
+		</footer>
+		<!-- /.footer -->
+
+
+		<!-- swiper読み込みコード -->
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+		<!-- jQueryライブラリ読み込みコード -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+		<!-- slickライブラリ読み込みコード -->
+		<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script src="/js/script.js"></script>
+	</body>
+
+</html>

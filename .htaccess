@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+RewriteEngine on
+RewriteRule ^https://alps-tax.com/author/alps-tax-co/$ https://alps-tax.com [L,R=301]
